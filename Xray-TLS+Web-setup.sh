@@ -343,7 +343,7 @@ let_change_cloudreve_domain()
     tyblue "  2. 右上角头像 -> 管理面板"
     tyblue "  3. 左侧的参数设置 -> 站点信息"
     tyblue "  4. 站点URL改为\"https://${domain_list[$1]}\" -> 往下拉点击保存"
-    sleep 15s
+    sleep 2s
     echo -e "\\n\\n"
     tyblue "按两次回车键以继续。。。"
     read -s
